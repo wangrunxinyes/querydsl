@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering>
+<hibernate-reverse-engineering>
+<!--    <table-filter exclude="true" match-name=".*" match-schema="trade" match-catalog="trade" />-->
+    <table-filter exclude="true" match-name=".*"  match-catalog="trade" match-schema="trade"/>
+    <table-filter exclude="true" match-name=".*"  match-catalog="audit" match-schema="audit"/>
+    <table-filter exclude="true" match-name=".*"  match-catalog="extensions" match-schema="extensions"/>
+    <table-filter exclude="true" match-name=".*"  match-catalog="horizon" match-schema="horizon"/>
+    <table-filter exclude="true" match-name=".*"  match-catalog="luckydraw" match-schema="luckydraw"/>
+    <table-filter exclude="true" match-name=".*"  match-catalog="main" match-schema="main"/>
+    <table-filter exclude="true" match-name=".*"  match-catalog="shared" match-schema="shared"/>
+    <table-filter exclude="true" match-name=".*"  match-catalog="stock" match-schema="stock"/>
+    <table-filter exclude="true" match-name=".*"  match-catalog="sys" match-schema="sys"/>
+    <table-filter exclude="true" match-name=".*" match-schema="life" match-catalog="life" />
+    <schema-selection match-schema="stock" match-table="market" match-catalog="stock"/>
+    <schema-selection match-schema="stock" match-table="quote" match-catalog="stock"/>
+    <schema-selection match-schema="stock" match-table="order" match-catalog="stock"/>
+    <schema-selection match-schema="stock" match-table="stock" match-catalog="stock"/>
+</hibernate-reverse-engineering>
